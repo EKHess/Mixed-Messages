@@ -5,6 +5,10 @@ const randomIntFromArr = (arr) => {
     return randInt;
 }
 
-// const holyMessageBatman = (arr) => {
-    
-// }
+const holyMessageBatman = (hyperboleArr) => {
+    const hyperbole = hyperboleArr[randomIntFromArr(hyperboleArr)];
+
+    console.log(`Holy ${hyperbole}, Batman!`);
+}
+
+holyMessageBatman(hyperbole);
