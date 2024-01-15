@@ -1,4 +1,4 @@
-const hyperbole = ['toledo', 'movie time', 'blue smurfs'];
+const hyperbole = ['toledo', 'movie time', 'blue smurfs', 'frostbite', 'beagles', 'space stations'];
 
 const randomIntFromArr = (arr) => {
     randInt = Math.floor(Math.random() * arr.length);
